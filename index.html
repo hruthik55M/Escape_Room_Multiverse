@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escape Room Multiverse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main-container">
+
+    <!-- START SCREEN -->
+    <div id="startScreen" class="center-box slide-in-up">
+        <h2>✨ Escape Room Multiverse ✨</h2>
+
+        <p class="instructions">
+            🧠 Solve puzzles across Bronze, Silver & Gold levels.<br>
+            ⏳ 60 seconds per question — Hint at 30s, Help at 5s.<br>
+            🔄 Hint resets timer to 60 seconds.<br>
+            ❗ Correct answer required — NO skipping allowed.<br>
+            🆘 If unanswered after hint extension, answer auto‑shows.<br>
+            🎯 Score 10 for each correct answer.
+        </p>
+
+        <button id="startBtn" class="start-button">Start Game</button>
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div id="gameScreen" class="center-box" hidden>
+
+        <div id="topInfo">
+            <div id="score">Score: 0</div>
+            <div id="level">Level: Bronze</div>
+            <div id="timer">01:00</div>
+            <button id="muteBtn">🔊 Music Off</button>
+        </div>
+
+        <div id="questionLabel"></div>
+        <div id="hint"></div>
+
+        <form id="answerForm">
+            <input id="answerInput" type="text" placeholder="Enter your answer...">
+            <button type="submit">Submit</button>
+        </form>
+
+        <button id="hintBtn" hidden>Hint</button>
+        <button id="helpBtn" hidden>Help</button>
+
+        <div id="feedback"></div>
+
+        <button id="nextBtn" hidden>Next</button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
