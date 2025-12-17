@@ -48,13 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const questions = [
     { q: "What has cities but no houses, rivers but no water, and mountains but no rocks?", a: "globe", hint: "Similar to map"},
     { q: "I can be cracked, made, told, and played. What am I?", a: "joke", hint: "Makes people laugh" },
-    { q: "A truck weighs 2000 kg + half its own weight. What is the total weight?", a: "4000 kg", hint: "X = 2000 + X/2" },
+    { q: "A truck weighs 2000 kg + half its own weight. What is the total weight?", a: "4000", hint: "X = 2000 + X*2" },
     { q: "Unscramble: tarimhtgo", a: "algorithm", hint: "Subject in school" },
     { q: "If √x = 15, what is x?", a: "225", hint: "Square it" },
     { q: "I follow you everywhere but disappear in darkness. What am I?", a: "shadow", hint: "Light needed" },
-    { q: "If 8 workers build a wall in 12 days, how long do 4 workers take?", a: "24 days", hint: "Half workers → double time" },
+    { q: "If 8 workers build a wall in 12 days, how long do 4 workers take?", a: "24", hint: "Half workers → double time" },
     { q: "A man pushes his car to a hotel and loses all his money. Why?", a: "monopoly", hint: "Board game" },
-    { q: "If 12 men finish a job in 8 days, how many in 4 days?", a: "24 men", hint: "Inverse proportion" },
+    { q: "If 12 men finish a job in 8 days, how many in 4 days?", a: "24", hint: "Inverse proportion" },
     { q: "Born near the sea, he helped a nation touch the sky. Who is this?", a: "apj abdul kalam", hint: "Missile Man of India." }
   ];
 
